@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    text-align: center;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #444444;
+}
+
+.content {
+    /* display: flex; */
+    padding: 30px 25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: centre;
+    /* justify-content: center; */
+}
+
+.row {
+	width: 100%;
+    display: flex;   
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin: 4px auto;
+}
+
+.text {
+    padding: 0 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.delete {
+    justify-self: flex-end;
+    margin-left: auto;
+}
+
+#input {
+    padding: 0 25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: centre;
+}
+
+#input > div {
+    width: 100%;
+    display: flex;   
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin: 4px auto;
+}
+
+#input span {
+    width: 30px;
+}
+
+#input input {
+    border: 0;
+    width: 70%;
+}
+
+#input input:focus-visible {
+    border: 0;
+    outline: 0;
+}
+
+#input input:focus-visible ~ div {
+    border: 2px grey;
+}
+
+#input button {
+    justify-self: flex-end;
+    margin-left: auto;
+    padding: 2px 10px;
+    background-color: white;
+    outline: 0;
+    border: 1px solid olivedrab;
+    color: olivedrab;
+}
+
+.row button {
+    padding: 2px 5px;
+    background-color: white;
+    outline: 0;
+    border: 1px solid lightcoral;
+    color: lightcoral;
+}
+
